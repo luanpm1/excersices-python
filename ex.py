@@ -11,7 +11,7 @@
 #     print(False)
 
 # Menbership Operators
-colors = ["red","green","blue"]
+colors = ["red", "green", "blue"]
 x = "red"
 # if x in colors:
 #     print(True)
@@ -47,7 +47,7 @@ x = "red"
 #     pass
 # print("Next step")
 #
-#match-case
+# match-case
 # day = "Monday"
 # match day:
 #     case "Monday": print("Today is Monday")
@@ -99,3 +99,59 @@ x = "red"
 # print("Circumference:", c)
 # print("Area:", a)
 
+"""
+    lesson 3
+    hàm thư viện và hàm tự định nghĩa
+    định nghĩa hàm(functiion definition)
+    def functiionName(param[optional])
+        statements
+        return value
+    vi du:
+    def sum(a, b):
+        return a + b
+    đối số vị trí(positional argument)
+            từ khóa(keyword argument)
+            mặc định(default argument)
+        
+"""
+
+
+def sum(a, b):
+    return a + b
+
+
+# print(sum(3, 6))
+
+
+def myF(a, b, c, d):
+    """
+
+    Parameters
+    ----------
+    a
+    b
+    c
+    d
+
+    Returns
+    -------
+
+    """
+
+
+# print(sorted([3, 5, 6, 3]))
+
+a = None
+# print(a, type(a))
+
+myList = ["red", "blue", "green", "yellow", "black"]
+# print(myList[::-1])  # dung nhieu dao nguoc list
+data1 = [1, 3, 5, 2, 9]
+data1.append("kidbuu")
+# print(data1)
+data2 = [1, 3, 3, 5, 2, 9]
+data2.sort()
+print(data2)
+
+# for index in (data):
+#     print(index)
