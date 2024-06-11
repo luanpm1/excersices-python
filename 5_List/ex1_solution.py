@@ -14,4 +14,12 @@
 
 
 def shift_array(array, k):
-    pass
+    length = len(array)
+    k %= length  # k khong vuot chieu dai cua danh sach
+    return array[k:] + array[:k]
+
+
+arr = [1, 2, 3, 4, 5]
+k = 2
+result = shift_array(arr, k)
+print(result)

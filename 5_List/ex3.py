@@ -21,4 +21,9 @@
 
 
 def add_matrices(mat1, mat2):
-    pass
+    if len(mat1) != len(mat2) or len(mat1[0]) != len(mat2[0]):
+        return 0
+    result = []
+    for i in range(len(mat1)):
+        temp = []
+

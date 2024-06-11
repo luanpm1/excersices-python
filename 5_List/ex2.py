@@ -14,6 +14,6 @@
         array = [4, 5, 1, 2, 3]
 """
 
-
+print("hello")
 def split_array(array, k):
     pass

@@ -14,8 +14,21 @@
 
 
 def is_member(value, list_of_values):
-    pass
+    for i in list_of_values:
+        if i == value:
+            return True
+
+    return False
+def overlapping(list_a, list_b):
+    arr = []
+    for i in list_a:
+        if is_member(i, list_b):
+            arr.append(i)
+    return arr
 
 
 print(is_member("monday", ["rose", 5, True, "monday", "tuesday", -5.5]))
 print(is_member("Monday", ["rose", 5, True, "monday", "tuesday", -5.5]))
+
+print(overlapping(["monday", 5], ["rose", 5, True, "monday", "tuesday", -5.5]))
+print(overlapping(["Monday"], ["rose", 5, True, "monday", "tuesday", -5.5]))

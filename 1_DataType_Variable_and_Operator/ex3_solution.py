@@ -5,3 +5,4 @@
 h = int(input("Enter the hours: "))
 s = h * 3600
 print("Number of seconds:", s)
+
