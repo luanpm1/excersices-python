@@ -9,5 +9,4 @@
 
 def get_string(n):
     pass
-if __name__ == '__main__':
-    print("hello")
+

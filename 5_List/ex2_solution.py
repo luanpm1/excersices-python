@@ -14,6 +14,15 @@
         array = [4, 5, 1, 2, 3]
 """
 
-print("hello")
+
 def split_array(array, k):
-    pass
+    length = len(array)
+    k %= length
+    result = array[:k] + array[k::]
+    result.reverse()
+    return result
+
+
+array = [1, 2, 3, 4, 5]
+k = 3
+print(split_array(array, k))

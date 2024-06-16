@@ -1,4 +1,4 @@
-# List
+# sample
 data = ["minh luan", 9, True, ("male"), {"job": "AI engineer"}]
 print(data, type(data))
 print(data[1])
@@ -27,3 +27,4 @@ data.reverse()
 print(data)
 print(data.count("minh luan"))
 print(data[::-1])
+

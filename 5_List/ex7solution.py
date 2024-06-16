@@ -7,3 +7,14 @@
 
 numbers = [20, 10, -4, 5, 10, 36, -16, 3, 5, 10, 16, -5, 5]
 k = 10
+
+
+def countNumber(num, k):
+    if k not in num:
+        return False
+    for i in num:
+        if i == k:
+            return num.count(i)
+
+
+print(countNumber(numbers, k))

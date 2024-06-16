@@ -7,3 +7,9 @@
 
 word_list = ["apple", "banana", "cherry", "date", "monkey", "blackpink"]
 k = 5
+def myF(words,k):
+    for i in words:
+        if len(i) > 5:
+            print(i)
+
+print(myF(word_list,k))
