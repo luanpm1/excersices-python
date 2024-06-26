@@ -9,3 +9,10 @@
 """
 year = int(input("Enter year number: "))
 month = int(input("Enter month number: "))
+
+isLeapYear = (year % 400 == 0) or (year % 4 == 0 and year % 100 != 0)
+daysOfMonth = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
+if month == 2 and isLeapYear:
+    print(29)
+else:
+    print("Số ngày của tháng {} năm {} là:".format(month, year), daysOfMonth[month - 1])

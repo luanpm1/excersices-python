@@ -22,4 +22,9 @@
 
 
 def multiply_matrices(mat1, mat2):
-    pass
+    # Kiêm tra kích thướt hai ma trận
+    if len(mat1) != len(mat2):
+        return None
+        exit()
+    # result
+
