@@ -1,4 +1,4 @@
-# ghi chu
+# This is a comment
 x = 3
 print(type(x))
 x = 3.0
