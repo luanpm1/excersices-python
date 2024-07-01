@@ -12,4 +12,8 @@ if a != 0:
     if delta > 0:
         print("x1:", (-b + delta * 0.5) / 2 * a)
         print("x2:", ((-b - delta * 0.5) / 2 * a))
-    elif:
+    elif delta == 0:
+        print("Phương trình có ngiệm kép x1 = x2:", -b / 2 * a)
+    else:
+        print("Phương trình vô ngiệm")
+else:print("Không là phương trình bậc hai")
